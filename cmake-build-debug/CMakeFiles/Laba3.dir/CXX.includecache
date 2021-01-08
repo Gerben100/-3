@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/raste/CLionProjects/Laba3/Graph.hpp
+iostream
+-
+vector
+-
+
+C:/Users/raste/CLionProjects/Laba3/Test.hpp
+Graph.hpp
+C:/Users/raste/CLionProjects/Laba3/Graph.hpp
+
+C:/Users/raste/CLionProjects/Laba3/main.cpp
+iostream
+-
+vector
+-
+Test.hpp
+C:/Users/raste/CLionProjects/Laba3/Test.hpp
+
